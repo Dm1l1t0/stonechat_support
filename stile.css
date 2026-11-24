@@ -77,3 +77,21 @@ th { color: var(--muted); font-weight: 650; }
 footer { padding: 0 0 2rem; }
 footer .shell { border-top: 1px solid var(--line); padding-top: 1rem; display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; justify-content: space-between; color: var(--muted); font-size: .9rem; }
 footer nav a { font-weight: 500; }
+
+/* Pagina prodotto (prodotto.html) */
+.hero { text-align: center; }
+.hero .intro { margin-inline: auto; }
+.hero-icon { width: 6rem; height: 6rem; border-radius: 1.4rem; margin-bottom: 1.2rem; box-shadow: 0 .6rem 1.6rem rgb(0 0 0 / .18); }
+.cta { display: flex; flex-wrap: wrap; justify-content: center; gap: .3rem .7rem; margin-top: 1.4rem; }
+.button.secondary { background: transparent; color: var(--accent); box-shadow: inset 0 0 0 2px var(--accent); }
+.button.soon { cursor: default; }
+.button.soon:hover { filter: none; }
+.gallery { display: flex; gap: 1.4rem; overflow-x: auto; scroll-snap-type: x mandatory; padding: 2.2rem max(1.25rem, calc((100% - 52rem) / 2)) 1.2rem; }
+.gallery figure { flex: 0 0 min(15rem, 72%); margin: 0; scroll-snap-align: center; text-align: center; }
+.gallery img { display: block; width: 100%; height: auto; border-radius: 1.6rem; border: 1px solid var(--line); background: #0b1310; box-shadow: 0 .8rem 2rem rgb(0 0 0 / .22); }
+.gallery figcaption { margin-top: .8rem; font-size: .92rem; color: var(--muted); }
+@media (min-width: 52rem) { .gallery { justify-content: center; overflow-x: visible; } }
+.features { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: .9rem; margin-top: 1rem; }
+.features .card { margin: 0; }
+.features h3 { margin: 0 0 .3rem; }
+.features p { margin: 0; color: var(--muted); }
