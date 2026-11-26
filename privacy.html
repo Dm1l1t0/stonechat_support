@@ -7,6 +7,9 @@
   <meta name="description" content="Come Stonechat tratta profilo, messaggi via Bluetooth, segnalazioni e richieste di supporto. Nessun account, nessun server, nessun tracciamento.">
   <link rel="icon" href="icona.png" type="image/png">
   <link rel="apple-touch-icon" href="icona.png">
+  <link rel="alternate" hreflang="it" href="https://dm1l1t0.github.io/stonechat_support/privacy.html">
+  <link rel="alternate" hreflang="en" href="https://dm1l1t0.github.io/stonechat_support/en/privacy.html">
+  <link rel="alternate" hreflang="x-default" href="https://dm1l1t0.github.io/stonechat_support/en/privacy.html">
   <link rel="stylesheet" href="stile.css">
 </head>
 <body>
@@ -18,7 +21,7 @@
       <a href="supporto.html">Supporto</a>
       <a href="privacy.html" aria-current="page">Privacy</a>
       <a href="regole.html">Regole</a>
-      <a href="#english" lang="en">English</a>
+      <a href="en/privacy.html" lang="en" hreflang="en">English</a>
     </nav>
   </div></header>
 
@@ -120,52 +123,11 @@
       <p>Se il funzionamento dell’app o il trattamento dei dati cambia, aggiorneremo questa pagina e la data in cima. Le modifiche rilevanti saranno indicate anche nelle note di versione dell’app.</p>
     </section>
 
-    <section id="english" class="lang" lang="en">
-      <h2>Privacy Policy (English)</h2>
-      <p class="meta">Effective 23 November 2026 · Applies to the Stonechat apps for iOS and Android and to these web pages.</p>
-      <p>Stonechat is a proximity chat app. Profile discovery and conversations happen directly between phones over Bluetooth Low Energy. There are no accounts, no chat servers and the app makes no internet connections.</p>
-
-      <h3>Controller and contact</h3>
-      <p>The controller is <strong>Jacopo Torroni</strong>, developer of Stonechat. Contact: <a href="mailto:jtengineeringsupport@gmail.com?subject=Stonechat%20privacy">jtengineeringsupport@gmail.com</a>.</p>
-
-      <h3>Data stored on your phone</h3>
-      <p>Your chosen name, optional profile picture (reduced to 64 × 64 pixels), cryptographic identity (a key pair generated on the device, from which your ID is derived), the list of blocked profiles and your colour palette. Profile, keys and block list are kept in the system’s protected storage (Keychain on iOS, Android Keystore-encrypted storage on Android), are not synced to iCloud and are excluded from backups. We have no access to them.</p>
-
-      <h3>Data visible to nearby people</h3>
-      <p>Only while Stonechat is open in the foreground, your name, profile picture and ID are broadcast over Bluetooth to nearby devices running Stonechat so you appear on their radar. Your ID stays the same until you reset your identity, so someone who meets you repeatedly can recognise your profile. Distance is estimated on the device from Bluetooth signal strength and is never transmitted. Stonechat does not use GPS or device location.</p>
-
-      <h3>Messages</h3>
-      <p>A chat starts only if the other person accepts your request. Messages are text only, end-to-end encrypted (AES-256-GCM with ephemeral X25519 keys, connection authenticated with Ed25519) and travel directly between phones. They are kept in app memory only and never written to disk. “Close and delete chat” deletes them immediately on your phone; the other phone deletes them when it receives the close request. Recipients can still read, copy or photograph messages they receive.</p>
-
-      <h3>Permissions</h3>
-      <p>Bluetooth (iOS) / Nearby devices (Android) to discover nearby users and exchange messages; the system photo picker to choose a profile picture (the app only receives the selected image). The app does not request location, contacts, microphone, camera or internet access.</p>
-
-      <h3>Support and reports</h3>
-      <p>Tapping “Segnala” (Report) blocks the profile and opens a draft in your email app addressed to us, containing the reported profile’s name and ID. Chat history is not attached, and the email is sent only if you choose to send it. If you write to us, we process your email address, your message and any attachments you choose to send, and for reports the reported profile’s name and ID. We use this data only to reply, handle reports and prevent abuse, based on our legitimate interest (Art. 6(1)(f) GDPR) and, when you exercise your rights, legal obligations (Art. 6(1)(c) GDPR). We keep correspondence as long as needed to handle the request and no longer than 12 months after it is closed, unless required for legal claims or by law. Emails are received and stored through Google’s Gmail service, which may process data outside the European Economic Area under appropriate safeguards (such as standard contractual clauses or the EU-U.S. Data Privacy Framework). We do not share this data with anyone else, except with authorities where required by law.</p>
-
-      <h3>What we never do</h3>
-      <p>No advertising, no tracking, no analytics, no third-party SDKs, no profiling, no sale or sharing of personal data.</p>
-
-      <h3>These web pages</h3>
-      <p>Static pages hosted on GitHub Pages (GitHub, Inc.), with no cookies, forms, ads or analytics. The hosting provider may log technical connection data such as IP addresses to serve and secure the pages.</p>
-
-      <h3>Children</h3>
-      <p>Stonechat is intended for people aged 18 or older, as confirmed on first launch. We do not knowingly process data of minors.</p>
-
-      <h3>Deleting your data</h3>
-      <p>Settings → “Reimposta identità ed elimina tutto” (Reset identity and delete everything) deletes your profile, keys, block list and chats from the device. On iPhone the system may keep protected storage after the app is removed; Stonechat erases it on the first launch of a new installation, so reset before uninstalling to delete everything immediately. On Android, uninstalling removes all app data. To delete emails you sent us, write to us from the same address.</p>
-
-      <h3>Your rights</h3>
-      <p>You may request access, rectification, erasure, restriction and portability, and object to processing based on legitimate interest (Arts. 15–22 GDPR). We reply within one month. You may also lodge a complaint with the Italian Data Protection Authority (<a href="https://www.garanteprivacy.it">Garante per la protezione dei dati personali</a>) or the supervisory authority of your country.</p>
-
-      <h3>Changes</h3>
-      <p>If the app or our data practices change, we will update this page and the date above.</p>
-    </section>
   </main>
 
   <footer><div class="shell">
     <span>© 2026 Stonechat · Jacopo Torroni</span>
-    <nav aria-label="Link legali"><a href="supporto.html">Supporto</a><a href="regole.html">Termini e regole</a></nav>
+    <nav aria-label="Link legali"><a href="supporto.html">Supporto</a><a href="regole.html">Termini e regole</a><a href="en/privacy.html" lang="en" hreflang="en">English</a></nav>
   </div></footer>
 </body>
 </html>
